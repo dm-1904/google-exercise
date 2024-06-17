@@ -1,0 +1,102 @@
+.profilePic {
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header, .rightHeader, .leftHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header {
+  justify-content: space-between;
+}
+
+.rightHeader {
+  display: flex;
+  justify-self: flex-end;
+  padding-right: 20px;
+}
+
+.leftHeader {
+  padding-left: 20px;
+}
+
+footer, .rightFooter, .leftFooter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  height: 50px;
+  justify-content: space-between;
+  }
+
+.leftFooter {
+    padding-left: 20px;
+  }
+
+.rightFooter {
+    display: flex;
+    justify-self: flex-end;
+    padding-right: 20px;
+  }
+
+.mainArea {
+  height: 90svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+  border: none;
+}
+
+.searchBox {
+display: flex;
+border: 1px solid lightgray;
+border-radius: 50px;
+}
+
+.searchIcon {
+padding-left: 30px;
+}
+
+#glass {
+  padding: 5px;
+}
+
+.buttons {
+  display: flex;
+  padding: 30px;
+  width: 350px;
+  justify-content: space-between;
+
+}
+
+.googleSearch, .lucky {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 10px 20px;
+}
+
+.google {
+  padding-bottom: 30px;
+}
